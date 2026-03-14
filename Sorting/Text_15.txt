@@ -1,0 +1,4 @@
+Sorting means to sort anything in an order or in a particular order
+The Order can be in increasing order or in the Decreasing order as well 
+depends upon what order you are choosing to perform the Sorting
+Ex Sorting the items on the basis of 
