@@ -31,6 +31,10 @@ public class spiralMatrix {
 
           //Left
               for(int i=endRow-1;i>=startRow;i--){
+                //Special Condition for the left column because if the startCol and endCol are same then we will print the same column twice
+                if(startCol==endCol){
+                    break;
+                }
                 System.out.print(matrix[i][startCol]+ " ");
               }
               startRow++;
@@ -43,6 +47,10 @@ public class spiralMatrix {
     }
 
     public static void main(String[] args) {
-        
+        int matrix[][]={{1,2,3,4},
+                        {5,6,7,8},
+                        {9,10,11,12},
+                        {13,14,15,16}};
+        printSpiral(matrix);
     }
 }
